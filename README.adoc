@@ -1,0 +1,37 @@
+## ointb
+
+A set of components that together combine to provide a silly OINTB fan site,
+from data import from IMDB in Haskell to web-based games written in Elm to
+showcase how functional programming techniques and ideas can be used in
+many different and practical ways.
+
+### Status
+
+In development. Just started (Sept 2015).
+
+### Plan
+
+This is a tangible but utterly silly application (set of components) to aid
+in blogging about my FP endeavors and learnings to help others learning
+some of these FP ideas and commonly used abstractions more material to aid
+in their development.
+
+I hope to introduce the following ideas through various components of this
+application:
+
+* basic FP abstractions (functors, monoids, etc.)
+* intermediate FP abstractions (state, reader, writer, etc. applications of
+  the dreaded _"monad"_ plus validations via applicative builders, etc.)
+* more advanced FP abstractions (e.g. zippers, lenses)
+* how these common FP abstractions relate to each other
+* using FRP for front-end games
+* using parsing combinators to enable media processing of a kind
+* type-level applications
+
+The first component will be the data importer.
+
+### License
+
+Source code licensed under the BSD 3-clause license found at link:LICENSE[].
+
+
